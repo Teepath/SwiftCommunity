@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-export default function () {
+export default function Businesses () {
   return (
     <div>
     <div>
@@ -19,7 +19,7 @@ export default function () {
         </div>
         <div className='hidden md:grid grid-cols-2 sm:grid sm:grid-cols-2 mx-10'>
         {/* <Image src={require('../public/assets/quote2.svg')} alt="quote2" className='object-scale-down h-96'/> */}
-        <div className='md:bg-[#1D2700;] flex md:flex-col justify-center items-center text-white space-y-10'>
+        <div className='md:bg-[#1D2700] flex md:flex-col justify-center items-center text-white space-y-10'>
             <Image src={require('../public/assets/qu.svg')} alt="q"/>
             <p className='text-white mx-auto p-6 items-center justify-center w-96'>Swiftsell helped me take something that I put my heart and soul into and share it with people that need it and find it useful.</p>
             <h2>Abisola Adeboye</h2>
