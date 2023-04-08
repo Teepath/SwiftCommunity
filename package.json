@@ -6,6 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "build:gh-pages": "next build && cp CNAME out/CNAME",
+  "export": "next export && cp CNAME out/CNAME",
+  "predeploy": "npm run build:gh-pages",
+  "deploy": "npx gh-pages -d out",
     "lint": "next lint"
   },
   "dependencies": {
