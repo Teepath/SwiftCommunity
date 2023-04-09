@@ -31,7 +31,7 @@ export default function Homepage() {
             <div className='bottom-0 left-72  absolute -z-5 md:left-[520px] md:bottom-4 md:absolute'><Image  src={require("../public/assets/carpetdown.svg")} alt="carpetdown" className=''/></div>
             <Image  src={require("../public/assets/ladyBook.svg")} alt="ladybook" className='top-4 left-6 absolute z-10 md:hidden'/>
             <div className='hidden md:inline-flex'>
-            <Image  src={require("../public/assets/ladyBook2.svg")} alt="ladybook" className='top-4 left-6  sm:left-3  absolute z-10'/> 
+            <Image  src={require("../public/assets/ladybook2.svg")} alt="ladybook" className='top-4 left-6  sm:left-3  absolute z-10'/> 
             </div>
 
          
