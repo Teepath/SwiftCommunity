@@ -8,7 +8,7 @@ export default function Homepage() {
         <div className='relative md:grid grid-cols-2 sm:grid sm:grid-cols-2'>
         <div className='flex flex-col justify-start md:justify-center items-center md:h-[500px]'>
         <div className='pt-4 h-40'>
-        <h1 className=' text-4xl lg:text-4xl md:text-3xl bold font-bold sm:text-2xl xl:text-5xl'>
+        <h1 className=' text-4xl lg:text-5xl md:text-3xl bold font-bold sm:text-2xl xl:text-5xl'>
         Get your hyperlocal<span className='text-[#81AF00] whitespace-break-spaces'> business off the ground.</span> 
         </h1>
         </div>

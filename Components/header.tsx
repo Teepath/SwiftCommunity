@@ -13,7 +13,7 @@ export default function Header() {
 
           </div>
           <div className='hidden md:inline-flex flex-1 items-center justify-center'> 
-            <ul className='flex justify-between  space-x-7 text-sm font-semibold'>
+            <ul className='flex justify-between  space-x-6 text-sm font-semibold'>
               <li className='cursor-pointer'>Company</li>
               <li className='cursor-pointer'>Pricing</li>
               <li className='flex space-x-[10px] cursor-pointer'>Support <span>
@@ -26,10 +26,10 @@ export default function Header() {
           </div>
 
 
-          <div className='hidden md:inline-flex h-12 max-w-auto justify-between p-3  items-center hover:cursor-pointer'> 
+          <div className='hidden md:inline-flex h-12 max-w-auto justify-between p-2  items-center hover:cursor-pointer'> 
             
-             <button className='text-sm m-5 hover:cursor-pointer hover:scale-125 transition-transform duration-200'>Login</button> 
-             <button className='bg-[#97CC04] h-12 px-2 rounded-md text-white hover:scale-125 transition-transform duration-200'>Start Free Trial</button>
+             <button className='text-sm m-4 hover:cursor-pointer hover:scale-125 transition-transform duration-200'>Login</button> 
+             <button className='bg-[#97CC04] px-4 h-10 mx-4  rounded-md text-white hover:scale-125 transition-transform duration-200'>Start Free Trial</button>
             
           </div>
 <div>
