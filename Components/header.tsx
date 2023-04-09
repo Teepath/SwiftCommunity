@@ -12,11 +12,11 @@ export default function Header() {
 <Image src={require('../public/assets/company.svg')} alt="name"  className="md:h-20 w-20"/>
 
           </div>
-          <div className='hidden md:inline-flex flex-1 items-center justify-center'> 
-            <ul className='flex justify-between  space-x-6 text-sm font-semibold'>
-              <li className='cursor-pointer'>Company</li>
-              <li className='cursor-pointer'>Pricing</li>
-              <li className='flex space-x-[10px] cursor-pointer'>Support <span>
+          <div className='hidden md:inline-flex space-x-4 flex-1 items-center justify-center'> 
+            <ul className='flex justify-between  space-x-4 text-sm font-semibold'>
+              <li className='cursor-pointer mx-4'>Company</li>
+              <li className='cursor-pointer mx-4 '>Pricing</li>
+              <li className='flex space-x-[10px] cursor-pointer mx-4'>Support <span>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-4">
   <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
 </svg>
