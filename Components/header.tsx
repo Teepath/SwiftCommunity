@@ -29,7 +29,7 @@ export default function Header() {
           <div className='hidden md:inline-flex h-12 max-w-auto justify-between p-2  items-center hover:cursor-pointer'> 
             
              <button className='text-sm m-4 hover:cursor-pointer hover:scale-125 transition-transform duration-200'>Login</button> 
-             <button className='bg-[#97CC04]  h-10 mx-4  rounded-md text-white hover:scale-125 transition-transform duration-200 md:p-2 items-center'>Start Free Trial</button>
+             <button className='bg-[#97CC04]  h-10 mx-4  rounded-md text-white hover:scale-125 transition-transform duration-200 md:p-3 items-center'>Start Free Trial</button>
             
           </div>
 <div>
